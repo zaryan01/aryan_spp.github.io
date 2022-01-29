@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Source+Serif+4:wght@300&display=swap');
+
+@font-face {
+    font-family: 'larsseit';
+    src: url(fonts/Larsseit\ Regular.ttf);
+}
+@font-face {
+    font-family: 'nexa-trial';
+    src: url(fonts/Nexa-Trial-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(7, 7, 10)!important;
+    overflow-x: hidden;
+    color: whitesmoke;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Nav bar*/
+
+.d1 {
+    position:fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: black;
+}
+.nav {
+    display: flex;
+    margin-top: 30px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px 0 100px;
+    font-family: 'Source Serif 7', sans-serif;
+}
+
+li {
+    list-style: none;
+    float: left;
+    display: block;
+    padding-left: 40px;  
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo p {
+    padding-left: 10px;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.login {
+    color: white;
+    border:1px solid rgb(25, 210, 166);
+    background-color: black;
+    padding: 8px;
+    transform: translateY(-8px);
+}
+.register {
+    color: black;
+    background-color: rgb(25, 210, 166);
+    border: black;
+    padding: 9px;
+    padding-left: 12px;
+    padding-right: 12px;
+    transform: translateY(-8px);
+}
+
+.login:hover{
+    border-color: rgb(47, 156, 131);
+}
+
+.register:hover{
+    background-color: rgb(47, 156, 131);
+}
+
+
+/* main */
+
+.main {
+    padding: 50px;
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: 50vw 40vw;
+    grid-template-rows: auto;
+}
+.box1 {
+    padding: 0 20px 0 50px;
+}
+.title {
+    font-size: 1.5em;
+    font-family: 'Inter', sans-serif;
+}
+.box2 {
+    padding: 0 10px 0 30px;
+
+    position: relative;
+}
+.box2 img {
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-bottom: 10px;
+}
+.main .register {
+    margin-top: 40px;
+    padding: 15px;
+    font-size: 22px;
+}
+.socials{
+  padding-left: 17rem;
+}
+
+
+.heading {
+    padding-top: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 6vw;
+    line-height: 1;
+}
+.spp-para {
+    margin-top: 20px;
+    padding: 10px 0 10px 0;
+    font-size: 17px;
+    text-align: justify;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+
+/* main-cards*/
+
+.box3 {
+    margin-top: 40px;
+    padding: 0 100px 0 100px;
+}
+.title1 {
+    font-size: 2.8vw;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.cards {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,0.330fr);
+    grid-column-gap: 200px;
+    grid-row-gap: 150px;
+}
+.cards div {
+    height: 300px;
+    padding: 50px 20px 0 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.07);
+}
+.cards p {
+    margin-top: 10px;
+}
+
+/* last */
+
+.box4 {
+    color: black;
+    background-color: whitesmoke;
+    padding: 40px;
+    padding-bottom: 80px;
+    font-family: 'larsseit';
+    
+}
+.c1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
+.c1-in {
+    padding-top: 50px;
+}
+.c1-in div {
+    font-size: 30px;
+    line-height: 2;
+}
+.headng {
+    padding-top: 50px;
+   padding-left: 80px;
+    font-size: 3em;
+}
+
+.p1 {
+   border: 1px solid black; 
+   padding:0 8px 0 8px;
+}
+.last1 {
+    transform: translate(-40px,-20px);
+}
